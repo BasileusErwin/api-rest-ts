@@ -12,17 +12,17 @@ CRUD of users and post, stored in MongoDB.
 
 Install Dependencies
 ```NPM
-    npm install
+npm install
 ```
 Compile TypeScript to JavaScript
 ```NPM
-    npm run build
+npm run build
 ```
 Run Server
 ```NPM
-    npm run dev
+npm run dev
 ```
-Deploy
+Deploy to production
 ```NPM
-    npm start
+npm start
 ```
