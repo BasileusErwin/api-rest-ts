@@ -1,0 +1,17 @@
+{
+  "trailingComma": "all",
+  "overrides": [
+    {
+      "files": [
+        "*.ts",
+        "*.js",
+        "*.json"
+      ],
+      "options": {
+        "useTabs": true,
+        "tabWidth": 4,
+        "semi": true
+      }
+    }
+  ]
+}
