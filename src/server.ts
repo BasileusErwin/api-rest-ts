@@ -23,11 +23,10 @@ class Server {
 	}
 
 	config() {
-		const MONGO_URI = 'mongodb://localhost/restapits';
 		// Mongoos
 		mongoose.set('useFindAndModify', true);
 		mongoose
-			.connect(MONGO_URI || process.env.MONGO_URI, {
+			.connect(process.env.MONGO_URI, {
 				useNewUrlParser: true,
 				useCreateIndex: true,
 			})
