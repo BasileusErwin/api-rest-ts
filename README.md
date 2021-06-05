@@ -1,8 +1,8 @@
 # API Rest with TypeScript
-### Is the simple API the CRUD.
+### Is a simple CRUD API.
 Simple API Rest with Node.js, TypeScript, and MongoDB.
 
-## Tecnology
+## Technology 
 
 - Node.JS and Express with TypeScript
 - MongoDB
