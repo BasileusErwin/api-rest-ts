@@ -12,7 +12,7 @@ CRUD of users and post, stored in MongoDB.
 ## Environment Variables
 This app needs the following environment Variables
 
-    - `MONGODB_URI` this is the Mongodb URI string
+- `MONGODB_URI` this is the Mongodb URI string
 
 ## Run
 
