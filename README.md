@@ -8,21 +8,27 @@ CRUD of users and post, stored in MongoDB.
 - Node.JS and Express with TypeScript
 - MongoDB
 
+
+## Environment Variables
+This app needs the following environment Variables
+
+    - `MONGODB_URI` this is the Mongodb URI string
+
 ## Run
 
 Install Dependencies
-```NPM
+```shell
 npm install
 ```
 Compile TypeScript to JavaScript
-```NPM
+```shell
 npm run build
 ```
 Run Server
-```NPM
+```shell
 npm run dev
 ```
 Deploy to production
-```NPM
+```shell
 npm start
 ```
