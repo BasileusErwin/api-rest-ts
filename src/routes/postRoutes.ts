@@ -3,7 +3,7 @@ import { Request, Response, Router } from 'express';
 import Post from '../models/Post';
 
 class PostRoutes {
-	router: Router;
+	public router: Router;
 	constructor() {
 		this.router = Router();
 		this.routes();

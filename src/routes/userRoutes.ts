@@ -3,7 +3,7 @@ import { Request, Response, Router } from 'express';
 import User from '../models/User';
 
 class UserRoutes {
-	router: Router;
+	public router: Router;
 	constructor() {
 		this.router = Router();
 		this.routes();

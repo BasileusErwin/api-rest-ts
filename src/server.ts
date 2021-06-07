@@ -1,11 +1,13 @@
 require('dotenv').config();
 
-import express, { request } from "express";
+import express from "express";
 import morgan from "morgan";
-import mongoose from "mongoose";
 import helmet from "helmet";
 import compression from "compression";
 import cors from "cors";
+
+// MongoDB
+import './database'
 
 // Routers
 import indexRoutes from "./routes/indexRoutes";
@@ -25,16 +27,6 @@ class Server {
 	}
 
 	config() {
-		// Mongoose
-		mongoose.set("useFindAndModify", true);
-		mongoose
-			.connect(process.env.MONGODB_URI, {
-				useNewUrlParser: true,
-				useCreateIndex: true,
-			})
-			.then((db) => console.log("DB is connect"))
-			.catch((e) => console.error(e));
-
 		// Settings
 		this.app.set("port", process.env.PORT || 3000);
 		// Middlewares
