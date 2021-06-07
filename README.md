@@ -13,6 +13,7 @@ CRUD of users and post, stored in MongoDB.
 This app needs the following environment Variables
 
 - `MONGODB_URI` this is the Mongodb URI string
+- `PORT` is the port is hosted the server. For the default is the port 3000
 
 ## Run
 
